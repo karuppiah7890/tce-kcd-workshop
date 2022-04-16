@@ -224,6 +224,12 @@ tanzu management-cluster create --ui
 
 ![TCE AWS Install 22](images/tce-aws-install-22.png)
 
+![TCE AWS Install 23](images/tce-aws-install-23.png)
+
+![TCE AWS Install 24](images/tce-aws-install-24.png)
+
+![TCE AWS Install 25](images/tce-aws-install-25.png)
+
 ## Step 4: Get Management Cluster details
 
 ```
