@@ -23,8 +23,8 @@ We are skipping installation from TCE source code as that takes quiet some time
 
 Manual installation on Mac/Linux/Windows
 
-- Download the release tarball based on your operating system.
-- Unpack the release tarball.
+- Download the [release tarball](https://github.com/vmware-tanzu/community-edition/releases/tag/v0.11.0) based on your operating system.
+- Unpack the [release tarball](https://github.com/vmware-tanzu/community-edition/releases/tag/v0.11.0).
   - Unzip on Windows.
   - `tar zxvf <release-tarball-path>` on Mac/Linux.
   - Enter the directory of the unpacked release.
