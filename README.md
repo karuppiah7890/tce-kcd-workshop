@@ -156,13 +156,13 @@ Note: ⚠️ Here we assume that the AWS account's credentials has enough access
 
 - Create a key pair in the region you want to create the cluster, for example `us-east-1`
 
-![TCE AWS Install 1](images/tce-aws-install-prep-for-key-1.png)
+![TCE AWS Install Prep for Key 1](images/tce-aws-install-prep-for-key-1.png)
 
-![TCE AWS Install 1](images/tce-aws-install-prep-for-key-2.png)
+![TCE AWS Install Prep for Key 2](images/tce-aws-install-prep-for-key-2.png)
 
-![TCE AWS Install 1](images/tce-aws-install-prep-for-key-3.png)
+![TCE AWS Install Prep for Key 3](images/tce-aws-install-prep-for-key-3.png)
 
-![TCE AWS Install 1](images/tce-aws-install-prep-for-key-4.png)
+![TCE AWS Install Prep for Key 4](images/tce-aws-install-prep-for-key-4.png)
 
 ## Step 3: Create the Management Cluster
 
@@ -174,43 +174,47 @@ tanzu management-cluster create --ui
 
 ![TCE AWS Install 1](images/tce-aws-install-1.png)
 
-![TCE AWS Install 1](images/tce-aws-install-2.png)
+![TCE AWS Install 2](images/tce-aws-install-2.png)
 
-![TCE AWS Install 1](images/tce-aws-install-3.png)
+![TCE AWS Install 3](images/tce-aws-install-3.png)
 
-![TCE AWS Install 1](images/tce-aws-install-4.png)
+![TCE AWS Install 4](images/tce-aws-install-4.png)
 
-![TCE AWS Install 1](images/tce-aws-install-5.png)
+![TCE AWS Install 5](images/tce-aws-install-5.png)
 
-![TCE AWS Install 1](images/tce-aws-install-6.png)
+![TCE AWS Install 6](images/tce-aws-install-6.png)
 
-![TCE AWS Install 1](images/tce-aws-install-7.png)
+![TCE AWS Install 7](images/tce-aws-install-7.png)
 
-![TCE AWS Install 1](images/tce-aws-install-8.png)
+![TCE AWS Install 8](images/tce-aws-install-8.png)
 
-![TCE AWS Install 1](images/tce-aws-install-9.png)
+![TCE AWS Install 9](images/tce-aws-install-9.png)
 
-![TCE AWS Install 1](images/tce-aws-install-10.png)
+![TCE AWS Install 10](images/tce-aws-install-10.png)
 
-![TCE AWS Install 1](images/tce-aws-install-11.png)
+![TCE AWS Install 11](images/tce-aws-install-11.png)
 
-![TCE AWS Install 1](images/tce-aws-install-12.png)
+![TCE AWS Install 12](images/tce-aws-install-12.png)
 
-![TCE AWS Install 1](images/tce-aws-install-13.png)
+![TCE AWS Install 13](images/tce-aws-install-13.png)
 
-![TCE AWS Install 1](images/tce-aws-install-14.png)
+![TCE AWS Install 14](images/tce-aws-install-14.png)
 
-![TCE AWS Install 1](images/tce-aws-install-15.png)
+![TCE AWS Install 15](images/tce-aws-install-15.png)
 
-![TCE AWS Install 1](images/tce-aws-install-16.png)
+![TCE AWS Install 16](images/tce-aws-install-16.png)
 
-![TCE AWS Install 1](images/tce-aws-install-17.png)
+![TCE AWS Install 17](images/tce-aws-install-17.png)
 
-![TCE AWS Install 1](images/tce-aws-install-18.png)
+![TCE AWS Install 18](images/tce-aws-install-18.png)
 
-![TCE AWS Install 1](images/tce-aws-install-19.png)
+![TCE AWS Install 19](images/tce-aws-install-19.png)
 
-![TCE AWS Install 1](images/tce-aws-install-20.png)
+![TCE AWS Install 20](images/tce-aws-install-20.png)
+
+![TCE AWS Install 21](images/tce-aws-install-21.png)
+
+![TCE AWS Install 22](images/tce-aws-install-22.png)
 
 ## Step 4: Get Management Cluster details
 
