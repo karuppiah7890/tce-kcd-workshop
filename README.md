@@ -6,16 +6,16 @@ Latest TCE version as this writing is `v0.11.0`
 
 Installation instructions:
 
-- TLDR;
+- [TLDR; Manual installation](#tldr-manual-installation)
 - [MacOS](#macos)
-  - Install with Homebrew
-  - Install with tar ball manually
+  - [Install with Homebrew](#install-with-homebrew-brew)
+  - [Install with tar ball manually](#install-with-tar-ball-manually)
 - [Linux](#linux)
-  - Install with Homebrew
-  - Install with tar ball manually
+  - [Install with Homebrew](#install-with-homebrew-brew-1)
+  - [Install with tar ball manually](#install-with-tar-ball-manually-1)
 - [Windows](#windows)
-  - Install with Chocolatey
-  - Install with zip manually
+  - [Install with Chocolatey](#install-with-chocolatey)
+  - [Install with zip manually](#install-with-zip-manually)
 
 We are skipping installation from TCE source code as that takes quiet some time
 
