@@ -152,6 +152,8 @@ Default region name [us-east-1]:
 Default output format [None]:
 ```
 
+Note: ⚠️ Here we assume that the AWS account's credentials has enough access to create a Kubernetes Cluster which means access to create different kinds of resources like - Cloud Formation Stacks, EC2 instances, Security Groups, Internet Gateways, Network Interfaces, Elastic Load Balancers (ELB), Virtual Private Cloud (VPC), Sub networks, Route Tables, NAT Gateways. We also assume that the AWS account has enough quota and available resources (based on current usage and quota) to create these resources for the Kubernetes Cluster
+
 ## Step 3: Create the Management Cluster
 
 We will be using the Kickstart Web UI to create our cluster
