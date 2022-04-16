@@ -142,7 +142,17 @@ Run `install.bat` script
 
 ![Create Access Key popup with Secret](images/create-access-key-popup-with-secret.png)
 
-## Step 3: Creating the Management Cluster
+- Run `aws configure` to configure your AWS credentials that you just got and also configure the default region. For example set region to something like `us-east-1`
+
+```bash
+$ aws configure
+AWS Access Key ID [***************]:
+AWS Secret Access Key [****************]:
+Default region name [us-east-1]:
+Default output format [None]:
+```
+
+## Step 3: Create the Management Cluster
 
 We will be using the Kickstart Web UI to create our cluster
 
