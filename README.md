@@ -154,6 +154,16 @@ Default output format [None]:
 
 Note: ⚠️ Here we assume that the AWS account's credentials has enough access to create a Kubernetes Cluster which means access to create different kinds of resources like - Cloud Formation Stacks, EC2 instances, Security Groups, Internet Gateways, Network Interfaces, Elastic Load Balancers (ELB), Virtual Private Cloud (VPC), Sub networks, Route Tables, NAT Gateways. We also assume that the AWS account has enough quota and available resources (based on current usage and quota) to create these resources for the Kubernetes Cluster
 
+- Create a key pair in the region you want to create the cluster, for example `us-east-1`
+
+![TCE AWS Install 1](images/tce-aws-install-prep-for-key-1.png)
+
+![TCE AWS Install 1](images/tce-aws-install-prep-for-key-2.png)
+
+![TCE AWS Install 1](images/tce-aws-install-prep-for-key-3.png)
+
+![TCE AWS Install 1](images/tce-aws-install-prep-for-key-4.png)
+
 ## Step 3: Create the Management Cluster
 
 We will be using the Kickstart Web UI to create our cluster
@@ -161,6 +171,46 @@ We will be using the Kickstart Web UI to create our cluster
 ```bash
 tanzu management-cluster create --ui
 ```
+
+![TCE AWS Install 1](images/tce-aws-install-1.png)
+
+![TCE AWS Install 1](images/tce-aws-install-2.png)
+
+![TCE AWS Install 1](images/tce-aws-install-3.png)
+
+![TCE AWS Install 1](images/tce-aws-install-4.png)
+
+![TCE AWS Install 1](images/tce-aws-install-5.png)
+
+![TCE AWS Install 1](images/tce-aws-install-6.png)
+
+![TCE AWS Install 1](images/tce-aws-install-7.png)
+
+![TCE AWS Install 1](images/tce-aws-install-8.png)
+
+![TCE AWS Install 1](images/tce-aws-install-9.png)
+
+![TCE AWS Install 1](images/tce-aws-install-10.png)
+
+![TCE AWS Install 1](images/tce-aws-install-11.png)
+
+![TCE AWS Install 1](images/tce-aws-install-12.png)
+
+![TCE AWS Install 1](images/tce-aws-install-13.png)
+
+![TCE AWS Install 1](images/tce-aws-install-14.png)
+
+![TCE AWS Install 1](images/tce-aws-install-15.png)
+
+![TCE AWS Install 1](images/tce-aws-install-16.png)
+
+![TCE AWS Install 1](images/tce-aws-install-17.png)
+
+![TCE AWS Install 1](images/tce-aws-install-18.png)
+
+![TCE AWS Install 1](images/tce-aws-install-19.png)
+
+![TCE AWS Install 1](images/tce-aws-install-20.png)
 
 ## Step 4: Get Management Cluster details
 
