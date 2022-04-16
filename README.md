@@ -254,6 +254,34 @@ kubectl get pods -A
 tanzu cluster create tce-aws-demo-wkld -f <cluster-config-yaml-file>
 ```
 
+An example cluster config yaml based on the above installation. We are using config similar to config used for management cluster with just the name changed
+
+```yaml
+AWS_PROFILE: default
+CLUSTER_NAME: tce-aws-demo-wkld
+AWS_AMI_ID: ami-04684ddd079ac3b6d
+AWS_NODE_AZ: us-east-1a
+AWS_PRIVATE_NODE_CIDR: 10.0.16.0/20
+AWS_PUBLIC_NODE_CIDR: 10.0.0.0/20
+AWS_REGION: us-east-1
+AWS_VPC_CIDR: 10.0.0.0/16
+BASTION_HOST_ENABLED: "true"
+CLUSTER_CIDR: 100.96.0.0/11
+CLUSTER_PLAN: dev
+CONTROL_PLANE_MACHINE_TYPE: t2.2xlarge
+ENABLE_CEIP_PARTICIPATION: "false"
+ENABLE_MHC: "true"
+IDENTITY_MANAGEMENT_TYPE: none
+INFRASTRUCTURE_PROVIDER: aws
+NODE_MACHINE_TYPE: t2.2xlarge
+SERVICE_CIDR: 100.64.0.0/13
+AWS_SSH_KEY_NAME: default
+ENABLE_AUDIT_LOGGING: "true"
+OS_ARCH: amd64
+OS_NAME: ubuntu
+OS_VERSION: "20.04"
+```
+
 ## Step 10: Get Workload Cluster Admin Kubeconfig
 
 ```
