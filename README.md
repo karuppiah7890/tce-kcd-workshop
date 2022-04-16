@@ -125,3 +125,89 @@ Run `install.bat` script
 ```
 .\install.bat
 ```
+
+## Step 2: Prep for installing Management Cluster
+
+- Login to AWS Console
+- Click on the profile name on top right
+- Select `Security Credentials`
+
+![AWS Security Credentials Button](images/aws-security-credentials.png)
+
+- Create access key
+
+![AWS Security Credentials Screen](images/aws-security-credentials-screen.png)
+
+![Create Access Key popup](images/create-access-key-popup.png)
+
+![Create Access Key popup with Secret](images/create-access-key-popup-with-secret.png)
+
+## Step 3: Creating the Management Cluster
+
+We will be using the Kickstart Web UI to create our cluster
+
+```bash
+tanzu management-cluster create --ui
+```
+
+## Step 4: Get Management Cluster details
+
+```
+tanzu management-cluster get
+```
+
+It's kind of a wrapper around `clusterctl`
+
+## Step 5: Get Management Cluster Admin Kubeconfig
+
+```
+tanzu management-cluster kubeconfig get --admin
+```
+
+## Step 6: Switch Kubernetes context to the Management Cluster in the Kubeconfig
+
+```
+kubectl config use-context tce-aws-demo-admin@tce-azure-demo
+```
+
+## Step 7: Connect to Management Cluster and check it out
+
+```
+kubectl version
+
+kubectl get nodes
+
+kubectl get pods -A
+```
+
+## Step 8: Checkout the AWS resources created for the Management Cluster in the AWS Console
+
+## Step 9: Create Workload Cluster
+
+```
+tanzu cluster create tce-aws-demo-wkld -f <cluster-config-yaml-file>
+```
+
+## Step 10: Get Workload Cluster Admin Kubeconfig
+
+```
+tanzu cluster kubeconfig get tce-aws-demo-wkld --admin
+```
+
+## Step 11: Switch Kubernetes context to the Workload Cluster in the Kubeconfig
+
+```
+kubectl config use-context tce-aws-demo-wkld-admin@tce-aws-demo-wkld
+```
+
+## Step 12: Connect to Workload Cluster and check it out
+
+```
+kubectl version
+
+kubectl get nodes
+
+kubectl get pods -A
+```
+
+## Step 13: Checkout the AWS resources created for the Workload Cluster in the AWS Console
