@@ -36,6 +36,8 @@ Manual installation on Mac/Linux/Windows
 
 #### Install with Homebrew (`brew`)
 
+[YouTube video reference](https://www.youtube.com/watch?v=idSTTVJhJ9Y)
+
 Ensure [Homebrew](https://brew.sh/) is installed
 
 ```bash
@@ -45,6 +47,8 @@ ${HOMEBREW_EXEC_DIR}/configure-tce.sh
 ```
 
 #### Install with tar ball manually
+
+[YouTube video reference](https://www.youtube.com/watch?v=FEpZpAovSLE)
 
 ```bash
 # download the tar ball with your favorite browser or something like wget or curl
@@ -64,6 +68,8 @@ cd tce-darwin-amd64-v0.11.0
 
 #### Install with Homebrew (`brew`)
 
+[YouTube video reference](https://www.youtube.com/watch?v=oweOlaquvDo)
+
 Ensure [Homebrew](https://brew.sh/) is installed
 
 ```bash
@@ -73,6 +79,8 @@ ${HOMEBREW_EXEC_DIR}/configure-tce.sh
 ```
 
 #### Install with tar ball manually
+
+[YouTube video reference](https://www.youtube.com/watch?v=pa5cxhdOaz8)
 
 ```bash
 # download the tar ball with your favorite browser or something like wget or curl
